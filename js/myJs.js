@@ -14,10 +14,10 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hallo đồ béo của em!!!!!',
-        text: 'Em bé có điều này muốn hỏi chú, chú trả lời thật lòng nhaaaa',
-        imageUrl: 'img/IMG_0253.jpg',
-        imageWidth: 240,
+        title: 'He luu cậu!',
+        text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.',
+        imageUrl: 'img/cuteCat.jpg',
+        imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("img/iput-bg.jpg")',
         imageAlt: 'Custom image',
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Bởi anh luôn yêu thương và quan tâm em :******";
+    var text = " Tại vì cậu đẹp trai vl :<<<<<<< ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Anh có biết tại sao em yêu anh không?',
+        title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
         html: true,
         width: 900,
         padding: '3em',
@@ -109,21 +109,20 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Không phải thế đôu :<",
+        cancelButtonText: "Thôi ngại lém :<<",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Chính là nó xD'
+        confirmButtonText: 'Gửi cho tớ <3'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'I love you to the moon and back <3 :*',
-                text: "Đôi lúc em cáu giận vô lý, em không được thú vị hay xinh đẹp, cũng không biết yêu anh sao cho đúng. Nhưng có điều này em có thể chắc chắn rằng: anh là người em yêu thương, là người em muốn dành thời gian và ở bên cạnh nhiều nhất!",
-		text: "Từ từ chưa hết ạ! Đồ béo có muốn xem tiếp điều thú vị không?",
+                title: 'Tớ biết mà ^^ Yêu cậu 300.000',
+                text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://fb.com';
