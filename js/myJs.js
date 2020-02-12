@@ -15,7 +15,7 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'Hallo đồ béo của em!!!!!',
-        text: 'Em bé có điều này muốn hỏi chú, chú trả lời thật lòng nhaaaa',
+        text: 'Em bé có điều này muốn hỏi chú, chú béo trả lời thật lòng nhaaaa',
         imageUrl: 'img/IMG_0253.png',
         imageWidth: 180,
         imageHeight: 240,
@@ -122,7 +122,6 @@ $('#yes').click(function() {
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'I love you to the moon and back <3 :*',
-                text: "Đôi lúc em cáu giận vô lý, em không được thú vị hay xinh đẹp, cũng không biết yêu anh sao cho đúng. Nhưng có điều này em có thể chắc chắn rằng: anh là người em yêu thương, là người em muốn dành thời gian và ở bên cạnh nhiều nhất!",
 		text: "Từ từ chưa hết ạ! Đồ béo có muốn xem tiếp điều thú vị không?",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
