@@ -3,8 +3,8 @@ $(document).ready(function() {
     setTimeout(function() {
         firstQuestion();
         $('.spinner').fadeOut();
-        $('#preloader').delay(300).fadeOut('slow');
-        $('body').delay(300).css({
+        $('#preloader').delay(350).fadeOut('slow');
+        $('body').delay(350).css({
             'overflow': 'visible'
         });
     }, 600);
@@ -16,8 +16,8 @@ function firstQuestion(){
     Swal.fire({
         title: 'Hallo đồ béo của em!!!!!',
         text: 'Em bé có điều này muốn hỏi chú, chú trả lời thật lòng nhaaaa',
-        imageUrl: 'img/cuteCat.jpg',
-        imageWidth: 300,
+        imageUrl: 'img/IMG_0253.jpg',
+        imageWidth: 240,
         imageHeight: 300,
         background: '#fff url("img/iput-bg.jpg")',
         imageAlt: 'Custom image',
