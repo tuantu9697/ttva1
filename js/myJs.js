@@ -3,8 +3,8 @@ $(document).ready(function() {
     setTimeout(function() {
         firstQuestion();
         $('.spinner').fadeOut();
-        $('#preloader').delay(350).fadeOut('slow');
-        $('body').delay(350).css({
+        $('#preloader').delay(300).fadeOut('slow');
+        $('body').delay(300).css({
             'overflow': 'visible'
         });
     }, 600);
