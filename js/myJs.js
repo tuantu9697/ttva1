@@ -125,7 +125,7 @@ $('#yes').click(function() {
 		text: "Từ từ chưa hết ạ! Đồ béo có muốn xem tiếp điều thú vị không?",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://fb.com';
+                    window.location = 'https://botbuongbinh.000webhostapp.com/';
                   }
             })
         }
