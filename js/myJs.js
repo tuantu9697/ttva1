@@ -17,8 +17,8 @@ function firstQuestion(){
         title: 'Hallo đồ béo của em!!!!!',
         text: 'Em bé có điều này muốn hỏi chú, chú béo trả lời thật lòng nhaaaa',
         imageUrl: 'img/IMG_0253.png',
-        imageWidth: 180,
-        imageHeight: 240,
+        imageWidth: 225,
+        imageHeight: 300,
         background: '#fff url("img/iput-bg.jpg")',
         imageAlt: 'Custom image',
       }).then(function(){
